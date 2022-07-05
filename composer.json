@@ -1,0 +1,19 @@
+{
+    "name": "litup/cashalot",
+    "description": "Money saving app",
+    "authors": [
+        {
+            "name": "Alexey Timchenko",
+            "email": "a.timchenko@belvg.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cashalot\\": "./"
+        }
+    }
+
+}
